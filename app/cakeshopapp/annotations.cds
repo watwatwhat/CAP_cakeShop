@@ -1,0 +1,1 @@
+using cakeshopSrv as service from '../../srv/service';

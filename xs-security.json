@@ -1,0 +1,43 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.store-manager",
+      "description": "store-manager"
+    },
+    {
+      "name": "$XSAPPNAME.store-staff",
+      "description": "store-staff"
+    },
+    {
+      "name": "$XSAPPNAME.store-supervisor",
+      "description": "store-supervisor"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "store-manager",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.store-manager"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "store-staff",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.store-staff"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "store-supervisor",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.store-supervisor"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

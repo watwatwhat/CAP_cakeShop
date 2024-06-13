@@ -1,0 +1,6 @@
+ID;cakeID;name;description;price;quantity;expiryDate;category_ID;order_ID
+cf735f49-3c8d-4462-85d3-e2ac8138e2b9;1;Chocolate Cake;Delicious chocolate cake with rich flavor.;15.99;10;2022-12-31;cf735f49-3c8d-4462-85d3-e2ac8138e2b9;cf735f49-3c8d-4462-85d3-e2ac8138e2b9
+cb0dec03-5e41-42f4-addb-e85626f30ff2;2;Vanilla Cake;Classic vanilla cake with a light and fluffy texture.;12.99;8;2022-12-31;cf735f49-3c8d-4462-85d3-e2ac8138e2b9;cb0dec03-5e41-42f4-addb-e85626f30ff2
+f8e89419-6c7e-4fce-a087-10e778b0b443;3;Red Velvet Cake;Moist and velvety red velvet cake with cream cheese frosting.;18.99;12;2022-12-31;cb0dec03-5e41-42f4-addb-e85626f30ff2;f8e89419-6c7e-4fce-a087-10e778b0b443
+6e8323fb-25f9-4192-bbe1-1fa24f4dd3d6;4;Strawberry Shortcake;Fresh strawberry shortcake with layers of fluffy sponge cake and whipped cream.;16.99;6;2022-12-31;cb0dec03-5e41-42f4-addb-e85626f30ff2;6e8323fb-25f9-4192-bbe1-1fa24f4dd3d6
+9da343ec-33ec-4fb4-ab41-957502708fbe;5;Carrot Cake;Homemade carrot cake with cream cheese frosting and a hint of spice.;14.99;10;2022-12-31;f8e89419-6c7e-4fce-a087-10e778b0b443;9da343ec-33ec-4fb4-ab41-957502708fbe
