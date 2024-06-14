@@ -30,7 +30,8 @@
     "chai-subset": "^1.6.0",
     "eslint": "^9",
     "jest": "^29.7.0",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "rimraf": "^5.0.5"
   },
   "scripts": {
     "start": "cds-serve",
@@ -38,7 +39,10 @@
     "generate-entry-point": "dev-cap-tools gen-entrypoint",
     "cds-watch": "cds watch --open",
     "test": "jest",
-    "watch-cakeshopapp": "cds watch --open cakeshopapp/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-cakeshopapp": "cds watch --open cakeshopapp/webapp/index.html?sap-ui-xx-viewCache=false",
+    "undeploy": "cf undeploy cakeshop --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
   },
   "cds": {
     "requires": {
